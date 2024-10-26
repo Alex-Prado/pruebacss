@@ -71,6 +71,9 @@
 
 #btns .class_btn {
     width: 160px !important;
+    top: inherit!important;
+    left: inherit!important;
+    position: relative!important;
 }
 
 .class_btn>em>button {
