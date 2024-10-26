@@ -8,6 +8,7 @@
     --alto_caja: 25px;
     --borde_caja: #b4cdeb;
     --danger: red;
+    --md_btn: 35px;
 }
 
 .ext_btn1>em>button>span,
@@ -45,6 +46,19 @@
     font-family: var(--letra) !important
 }
 
+.ext_grill1,
+.ext_grill1>div:first-child,
+.ext_grill1>div:first-child>div:first-child,
+.ext_grill1>div:first-child>div:first-child>div:first-child,
+.ext_grill1>div:first-child>div:first-child>div:first-child>div:nth-child(2) {
+    width: 100% !important;
+}
+
+#ext_btns1>div:first-child,
+#ext_btns1>div:first-child>div:first-child {
+    width: 100% !important;
+
+}
 
 .ext_tab1 {
     background-color: #ff0
@@ -69,7 +83,14 @@
     padding-left: 10px !important
 }
 
-#btns .x-box-inner {
+#ext_btns1 {
+    width: 100% !important;
+    position: relative !important;
+    height: calc(var(--md_btn) + 10px) !important;
+
+}
+
+#ext_btns1 .x-box-inner {
     width: 100% !important;
     display: flex;
     align-items: center;
@@ -77,11 +98,24 @@
     padding: 0 5px !important
 }
 
-#btns .ext_btn1 {
+#ext_btns1 div {
+    height: inherit;
+}
+
+#ext_btns1 .x-panel-default .x-panel-body-default {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* padding: 0 5px !important */
+}
+
+#ext_btns1 .ext_btn1 {
     width: 160px !important;
     top: inherit !important;
     left: inherit !important;
     position: relative !important;
+    height: var(--md_btn) !important;
 }
 
 .ext_btn1>em>button {
@@ -155,6 +189,11 @@
 .ext_grill1 .x-column-header-text {
     font-weight: 700 !important;
     color: var(--danger) !important;
+}
+
+.ext_grill1 .x-panel-default {
+    position: relative !important;
+    top: inherit !important;
 }
 
 .block {
