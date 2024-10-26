@@ -10,16 +10,16 @@
     --danger: red;
 }
 
-.class_btn>em>button>span,
-.miClaseCSS>div>div>div>div {
+.ext_btn1>em>button>span,
+.ext_tab1>div>div>div>div {
     position: relative !important
 }
 
 .block_tittle,
-.class_btn>em>button>span:first-child,
-.miClaseCSS>div>div>div>div>em>button>span,
+.ext_btn1>em>button>span:first-child,
+.ext_tab1>div>div>div>div>em>button>span,
 .tdLbL2,
-.tdtxt input {
+.ext_txt1 input {
     font-size: var(--size) !important;
     font-family: var(--letra) !important
 }
@@ -33,32 +33,32 @@
 }
 
 .block_tittle,
-.class_btn>em>button>span:first-child,
+.ext_btn1>em>button>span:first-child,
 .descripMotivo,
-.grilla .x-column-header-text,
-.grilla .x-grid-cell-inner,
+.ext_grill1 .x-column-header-text,
+.ext_grill1 .x-grid-cell-inner,
 .list_combo i,
 .tdLbL2,
 .tdbtn button,
-.tdtxt input,
-.tdtxt textarea {
+.ext_txt1 input,
+.ext_txt1 textarea {
     font-family: var(--letra) !important
 }
 
 
-.miClaseCSS {
+.ext_tab1 {
     background-color: #ff0
 }
 
-.miClaseCSS>div>div>div>div {
+.ext_tab1>div>div>div>div {
     left: 0 !important
 }
 
-.miClaseCSS>div>div>div>div>em>button {
+.ext_tab1>div>div>div>div>em>button {
     width: 150px !important
 }
 
-.miClaseCSS>div>div>div>div>em>button>span {
+.ext_tab1>div>div>div>div>em>button>span {
     margin: inherit !important;
     line-height: inherit !important
 }
@@ -77,14 +77,14 @@
     padding: 0 5px !important
 }
 
-#btns .class_btn {
+#btns .ext_btn1 {
     width: 160px !important;
     top: inherit !important;
     left: inherit !important;
     position: relative !important;
 }
 
-.class_btn>em>button {
+.ext_btn1>em>button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,13 +92,13 @@
     width: 100% !important
 }
 
-.class_btn>em>button>span:first-child {
+.ext_btn1>em>button>span:first-child {
     width: auto !important;
     font-weight: 800;
     padding-left: 10px !important
 }
 
-.tdtxt input {
+.ext_txt1 input {
     text-transform: uppercase !important;
     font-weight: var(--bold) !important;
     height: var(--alto_caja) !important;
@@ -111,20 +111,20 @@
     text-transform: uppercase !important
 }
 
-.tdtxt textarea {
+.ext_txt1 textarea {
     font-size: 7px !important
 }
 
 .class_filter2>div>input,
 .class_filter>div>input,
-.grilla .x-column-header-text,
-.grilla .x-grid-cell-inner,
+.ext_grill1 .x-column-header-text,
+.ext_grill1 .x-grid-cell-inner,
 .tdbtn button {
     font-size: var(--size) !important;
     font-weight: var(--bold) !important
 }
 
-.tdtxt .textbox {
+.ext_txt1 .textbox {
     border: 1px solid var(--borde_caja) !important
 }
 
@@ -152,7 +152,7 @@
     height: var(--alto_caja) !important
 }
 
-.grilla .x-column-header-text {
+.ext_grill1 .x-column-header-text {
     font-weight: 700 !important;
     color: var(--danger) !important;
 }
