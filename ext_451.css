@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 
+
+:root {
+    --size: 9px;
+    --bold: 500;
+    --letra: "Montserrat", sans-serif;
+    --alto_caja: 25px;
+    --borde_caja: #b4cdeb;
+    --danger: red;
+}
+
 .class_btn>em>button>span,
 .miClaseCSS>div>div>div>div {
     position: relative !important
@@ -35,13 +45,6 @@
     font-family: var(--letra) !important
 }
 
-:root {
-    --size: 9px;
-    --bold: 500;
-    --letra: "Montserrat", sans-serif;
-    --alto_caja: 25px;
-    --borde_caja: #b4cdeb
-}
 
 .miClaseCSS {
     background-color: #ff0
@@ -136,6 +139,7 @@
 
 .grilla .x-column-header-text {
     font-weight: 700 !important;
+    color: var(--danger)!important;
 }
 
 .block {
