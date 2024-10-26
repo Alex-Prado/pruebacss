@@ -69,11 +69,19 @@
     padding-left: 10px !important
 }
 
+#btns .x-box-inner {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 5px !important
+}
+
 #btns .class_btn {
     width: 160px !important;
-    top: inherit!important;
-    left: inherit!important;
-    position: relative!important;
+    top: inherit !important;
+    left: inherit !important;
+    position: relative !important;
 }
 
 .class_btn>em>button {
@@ -81,7 +89,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 100%!important
+    width: 100% !important
 }
 
 .class_btn>em>button>span:first-child {
