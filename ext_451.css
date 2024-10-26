@@ -74,7 +74,8 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 100%
+    /* width: 100% */
+    width: 160px!important;
 }
 
 .class_btn>em>button>span:first-child {
